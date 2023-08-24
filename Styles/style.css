@@ -140,7 +140,7 @@
   }
    .dropdown-content a:hover {background-color: rgb(65,88,208);}
    .about:hover .dropdown-content {display: block;} 
-  .about:hover .dropbtn {background-color: #3e8e41;}
+  /* .about:hover .dropbtn {background-color: #3e8e41;} */
 
   /* about part end  */
 
@@ -149,6 +149,9 @@
     position: relative;
     display: inline-block;
     padding-top: 16px;
+    /* width: 80%; */
+    min-width: 600px;
+    
   }
   .goalbtn{
     font-size: 17px;
@@ -162,21 +165,23 @@
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 250px;
+    min-width: 450px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+  }
+  .activities_company{
+    display: flex;
   }
   .title_EL{
     font-size: 16px;
     color: black;
     padding: 5px 10px;
-    /* text-decoration: none; */
     display: block;
   }
 
   .dropdown-goal-content span:hover {background-color: rgb(65,88,208);}
    .our_goal:hover .dropdown-goal-content  {display: block;} 
-  .our_goal:hover .goalbtn {background-color: #3e8e41;}
+  /* .our_goal:hover .goalbtn {background-color: #3e8e41;} */
 
 
 
