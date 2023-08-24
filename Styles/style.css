@@ -87,6 +87,15 @@
     font-style: italic;
     
 }
+.home a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #37589B;
+}
+/* .home a :hover{
+    color: rgb(27, 83, 133);
+} */
 .about{
     position: relative;
     display: inline-block;
