@@ -158,6 +158,20 @@
     background-color: rgb(65,88,208);
     border: none;
   }
+  .dropdown-goal-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+  }
+
+  .dropdown-goal-content span:hover {background-color: rgb(65,88,208);}
+   .our_goal:hover .dropdown-goal-content  {display: block;} 
+  .our_goal:hover .goalbtn {background-color: #3e8e41;}
 
 
 
