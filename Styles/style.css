@@ -1,3 +1,4 @@
+/* start topper lonks  */
 .link_topper_main{
     /* width: 80%; */
     /* background-color: transparent; */
@@ -44,4 +45,30 @@
     background-image: linear-gradient(to right,Beige, Azure);
     opacity: 1.0;
 }
+/* end topper lonks  */
 
+/* start header  */
+.main_header{
+    padding: 10px;
+    background-color: rgb(65,88,208);
+}
+.logo{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 5%;
+}
+.image_logo{
+    
+    width: 110px;
+    background-color: rgb(65,88,208);
+}
+.logo_title h1{
+    font-size: 40;
+    font-weight: 700;
+    color: #cf2e2e;
+    max-height: 20px;
+}
+.mini_describe{
+    color: #ffffff;
+    font-style: italic;
+}
