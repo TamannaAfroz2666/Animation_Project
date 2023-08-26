@@ -9,6 +9,8 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 999;
+    height: 65px;
+    line-height: 65px;
 
 }
 
@@ -23,9 +25,13 @@ nav .wrapper{
 .wrapper .logo a {
     color: #fff;
     text-decoration: none;
-    
+}
+
+.wrapper .nav_links{
+    display: inline-flex;
 
 }
+
 .nav_links li{
     list-style: none;
 }
