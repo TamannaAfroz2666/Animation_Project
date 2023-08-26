@@ -68,7 +68,7 @@ nav .wrapper{
     top: 85px;
     opacity: 1;
     visibility: visible;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .drop_menu li a {
     width: 100%;
