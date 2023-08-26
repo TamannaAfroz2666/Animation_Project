@@ -62,6 +62,12 @@ nav .wrapper{
     opacity: 0;
     visibility: hidden;
 }
+.nav_links li:hover .drop_menu {
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
 .drop_menu li a {
     width: 100%;
     display: block;
