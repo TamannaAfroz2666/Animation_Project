@@ -95,3 +95,6 @@ nav .wrapper{
     width: 100%;
     justify-content: space-between;
 }
+.content .row{
+    width: calc(25% - 30px);
+}
