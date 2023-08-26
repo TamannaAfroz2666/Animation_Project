@@ -58,4 +58,15 @@ nav .wrapper{
     width: 180px;
     top: 65px;
     line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.drop_menu li a {
+    width: 100%;
+    display: block;
+    padding: 0 0 0 15px ;
+    font-weight: 400;
+    border-radius: 0px;
+
 }
