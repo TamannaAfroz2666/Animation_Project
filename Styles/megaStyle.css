@@ -25,6 +25,8 @@ nav .wrapper{
 .wrapper .logo a {
     color: #fff;
     text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
 }
 
 .wrapper .nav_links{
@@ -38,5 +40,8 @@ nav .wrapper{
 .nav_links li a{
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 15px;
 
 }
