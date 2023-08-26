@@ -114,6 +114,11 @@ nav .wrapper{
     border-left: 1px solid rgba(255, 255, 255, 0.09);
 
 }
+.content .row:nth-child(1), 
+.content .row:nth-child(2) {
+    border-left: 0px;
+}
+
 .row .mega_links li{
     padding: 0 20px;
 }
