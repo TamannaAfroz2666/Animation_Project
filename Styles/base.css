@@ -89,3 +89,17 @@ nav .wrapper .logo{
     font-style: italic;
     color: #ffffff;
 }
+.nav_links{
+    display: inline-flex;
+}
+.nav_links li {
+    list-style: none;
+}
+.nav_links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 85px;
+    padding: 0px 8px;
+}
