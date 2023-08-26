@@ -52,7 +52,7 @@
 /* header section part  */
 
 nav{
-    background-color: #242526;
+    background-color: #37589B;
     width: 100%;
     height: 85px;
     /* line-height: 85px; */
@@ -106,18 +106,37 @@ nav .wrapper .logo{
     transition: all 0.3s ease;
 }
 .nav_links li a:hover{
-    background-color:#3a3b3c;
+    background-color:#37589B;
 }
 
 /* drop menu about us start  */
 
 .nav_links .drop_menu{
-    background: #242526;
-    width: 210px;
+    background: #e1e1e1;
+    width: 220px;
     top: 85px;
     position: absolute;
-    padding: 6px 12px;
-    line-height: 55px;
+    line-height: 50px;
     opacity: 0;
     visibility: hidden;
+}
+.drop_menu li a {
+    width: 100%;
+    max-height: 50px;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 0 0 0px;
+    border-radius: 0;
+    color: rgb(58, 50, 50);
+    line-height: 50px;
+  
+
+}
+.nav_links li:hover .drop_menu{
+    transition: all 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+    top: 85px;
+    
 }
