@@ -149,6 +149,14 @@ nav .wrapper .logo{
     position: absolute;
     left: 0;
     top: 85px;
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+
+.mega_menu .content{
+    background: #242526;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px;
 }
