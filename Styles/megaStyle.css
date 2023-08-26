@@ -43,5 +43,11 @@ nav .wrapper{
     font-size: 18px;
     font-weight: 600;
     padding: 9px 15px;
+    border-radius: 5px;
+}
+
+.nav_links li a:hover {
+    background: #3a3b3c;
+  
 
 }
