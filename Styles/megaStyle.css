@@ -83,8 +83,15 @@ nav .wrapper{
 /* style mega menu  */
 .mega_box{
     position: absolute;
-    top: 0;
-    background: #242526;
+    top: 80px;
+    
     width: 100%;
     left: 0;
+}
+.mega_box .content{
+    background: #242526;
+    padding: 25px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
