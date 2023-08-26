@@ -4,3 +4,11 @@
     box-sizing: border-box;
     
 }
+nav .wrapper{
+    background: red;
+}
+.nav_links li a{
+    color: #fff;
+    text-decoration: none;
+
+}
