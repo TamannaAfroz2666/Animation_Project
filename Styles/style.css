@@ -149,12 +149,13 @@
     position: relative;
     display: inline-block;
     padding-top: 15px;
-    min-width: 700px;
+    width: 100%;
+    top: 0;
+    left: 0;
     /* width: 80%; */
     /* min-width: 700px; */
 
    
-    /* max-height: 50px !important; */
     
   }
   .goalbtn{
@@ -169,26 +170,27 @@
     display: none;
     position: absolute;
     background-color: #ffffff;
-    /* min-width: 700px; */
+   
     
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   .activities_company{
     display: flex;
-    column-gap: 20px;
+    /* column-gap: 0px; */
     padding: 20px;
+    position: relative;
     
   }
   .title_ALLL{
     font-size: 16px;
     color: black;
-    padding: 5px 10px;
+    padding: 8px 16px;
     /* display: block; */
   }
 
   .dropdown-goal-content span:hover {background-color: rgb(65,88,208);}
-   .our_goal:hover .dropdown-goal-content  {display: block;} 
+   .our_goal:hover .dropdown-goal-content  {display:flex;} 
   /* .our_goal:hover .goalbtn {background-color: #3e8e41;} */
 
 
