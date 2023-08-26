@@ -63,8 +63,9 @@ nav .wrapper{
     opacity: 0;
     visibility: hidden;
 }
-.nav_links li:hover .drop_menu {
-    top: 65px;
+.nav_links li:hover .drop_menu ,
+.nav_links li:hover .mega_box {
+    top: 85px;
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
@@ -87,6 +88,9 @@ nav .wrapper{
     
     width: 100%;
     left: 0;
+    opacity: 0;
+    visibility: hidden;
+    /* transition: all 0.3s ease; */
 }
 .mega_box .content{
     background: #242526;
@@ -127,4 +131,7 @@ nav .wrapper{
     color: #d9d9d9;
     font-size: 17px;
     display: block;
+}
+.row .mega_links li a:hover{
+    color: #f2f2f2;
 }
