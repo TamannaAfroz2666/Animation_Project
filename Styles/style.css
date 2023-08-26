@@ -1,7 +1,5 @@
 /* start topper lonks  */
 .link_topper_main{
-    /* width: 80%; */
-    /* background-color: transparent; */
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -10,16 +8,13 @@
     justify-content: space-between;
 }
 .link_items{
-    /* margin-top: 15px; */
     padding: 15px;
    
 }
 .link_items a{
    padding: 4px;
-   /* column-gap: 200px !important; */
 }
 .link_fb{
-    /* font-size: 20px; */
     width: 22px;
     color: #fff;
     background-color: #37589B;
