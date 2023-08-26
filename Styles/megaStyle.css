@@ -15,6 +15,7 @@ nav{
 }
 
 nav .wrapper{
+    position: relative;
     max-width: 1250px;
     padding: 0 30px;
     margin: auto;
@@ -75,4 +76,15 @@ nav .wrapper{
     font-weight: 400;
     border-radius: 0px;
 
+}
+/* dropdown menu created end */
+
+
+/* style mega menu  */
+.mega_box{
+    position: absolute;
+    top: 0;
+    background: #242526;
+    width: 100%;
+    left: 0;
 }
