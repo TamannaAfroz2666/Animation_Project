@@ -23,7 +23,7 @@ nav .wrapper{
     justify-content: space-between;
 }
 .wrapper .logo a {
-    color: #fff;
+    color: #f2f2f2;
     text-decoration: none;
     font-size: 27px;
     font-weight: 600;
@@ -49,6 +49,13 @@ nav .wrapper{
 
 .nav_links li a:hover {
     background: #3a3b3c;
-  
+}
 
+/* dropdown menu create  */
+
+.nav_links .drop_menu{
+    background: #242526;
+    width: 180px;
+    top: 65px;
+    line-height: 45px;
 }
