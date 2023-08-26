@@ -4,8 +4,30 @@
     box-sizing: border-box;
     
 }
+nav{
+    background: #242526;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+
 nav .wrapper{
-    background: red;
+    max-width: 1250px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .logo a {
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+.nav_links li{
+    list-style: none;
 }
 .nav_links li a{
     color: #fff;
