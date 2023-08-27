@@ -263,9 +263,12 @@ nav .wrapper .logo{
     width: 1200px;
     position: relative;
     left: 30px;
+    /* display: inline-block; */
 }
 .electrical{
     width: 300px;
+    padding: 30px 20px;
+    display: inline-block;
 }
 .electrical img{
     width: 100%;
