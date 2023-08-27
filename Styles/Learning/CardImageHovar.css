@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ImagePart{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent{
+    margin: 10px;
+    width: 40%;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.child{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+.bg_one{
+    background-repeat: no-repeat;
+    background-image: url(../../Pictures/Business/Electricals/Electricals.png);
+}
+.bg_two{
+    background-repeat: no-repeat;
+    background-image: url(../../Pictures/Business/Electricals/Electricals.png);
+}
+.bg_three{
+    background-repeat: no-repeat;
+    background-image: url(../../Pictures/Business/Electricals/Electricals.png);
+}
+.bg_four{
+    background-repeat: no-repeat;
+    background-image: url(../../Pictures/Business/Electricals/Electricals.png);
+}
+
+
+/* hovar */
+.parent:hover{
+    transform: scale(1.2);
+}
