@@ -75,10 +75,7 @@ nav .wrapper .logo{
     max-height: 70px;
     padding: 10px 10px;  
 }
-.title {
-    /* line-height: 35px; */
 
-}
 .title h1{
     color: #cf2e2e;
     font-size: 40px;
@@ -104,6 +101,7 @@ nav .wrapper .logo{
     padding: 8px 14px;
     border-radius: 5px;
     transition: all 0.3s ease;
+
 }
 .nav_links li a:hover{
     background-color:#37589B;
@@ -205,5 +203,52 @@ nav .wrapper .logo{
 .row .mega_links li a:hover{
     color: rgb(58, 50, 50);
 }
-/* mega menu (Our group ) field style start  */
 
+/* mega menu (Our group ) field style end  */
+
+/* background animation image section start  */
+
+.background_image{
+    width: 1250px;
+    top: 30px;
+    left: 58px;
+    position: relative;
+    height: 90%;
+    background-color: aquamarine;
+    background-image: url(../Pictures/Background/BackgroundChanging2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: change 20s infinite ease-in-out;
+}
+
+/* Animation start  */
+@keyframes change{
+    0%{
+        background-image: url(../Pictures/Background/BackgroundChanging11.jpg);
+    }
+    20%{
+        background-image: url(../Pictures/Background/BackgroundChanging2.jpg);
+    }
+    40%{
+        background-image: url(../Pictures/Background/BackgroundChanging1.jpg);
+    }
+    60%{
+        background-image: url(../Pictures/Background/BackgroundChanging3.jpg);
+    }
+    80%{
+        background-image: url(../Pictures/Background/BackgroundChanging2.jpg);
+    }
+    100%{
+        background-image: url(../Pictures/Background/BackgroundChanging3.jpg);
+    }
+}
+
+.hh{
+    width: 1250;
+    background: #e7a7a7;
+    top: 80px;
+    position: relative;
+    left: 50px;
+
+}
