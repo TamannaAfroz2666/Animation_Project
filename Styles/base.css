@@ -75,10 +75,7 @@ nav .wrapper .logo{
     max-height: 70px;
     padding: 10px 10px;  
 }
-.title {
-    /* line-height: 35px; */
 
-}
 .title h1{
     color: #cf2e2e;
     font-size: 40px;
@@ -209,3 +206,26 @@ nav .wrapper .logo{
 /* mega menu (Our group ) field style end  */
 
 /* background animation image section start  */
+
+.background_image{
+    width: 1250px;
+    top: 50px;
+    left: 50px;
+    position: relative;
+    /* padding: 0 30px; */
+    /* padding: 0 50px 50px 50px; */
+    /* margin-top: 30px; */
+
+    height: 80%;
+   
+    background-color: aquamarine;
+}
+
+.hh{
+    width: 1250;
+    background: #e7a7a7;
+    top: 80px;
+    position: relative;
+    left: 50px;
+
+}
