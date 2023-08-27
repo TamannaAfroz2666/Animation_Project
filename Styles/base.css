@@ -218,6 +218,29 @@ nav .wrapper .logo{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: change 20s infinite ease-in-out;
+}
+
+/* Animation start  */
+@keyframes change{
+    0%{
+        background-image: url(../Pictures/Background/BackgroundChanging11.jpg);
+    }
+    20%{
+        background-image: url(../Pictures/Background/BackgroundChanging2.jpg);
+    }
+    40%{
+        background-image: url(../Pictures/Background/BackgroundChanging1.jpg);
+    }
+    60%{
+        background-image: url(../Pictures/Background/BackgroundChanging3.jpg);
+    }
+    80%{
+        background-image: url(../Pictures/Background/BackgroundChanging2.jpg);
+    }
+    100%{
+        background-image: url(../Pictures/Background/BackgroundChanging3.jpg);
+    }
 }
 
 .hh{
