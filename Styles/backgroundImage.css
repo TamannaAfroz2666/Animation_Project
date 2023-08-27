@@ -14,7 +14,7 @@
     background-size: cover;
     text-align: center;
     justify-content: center;
-    animation: change 3s infinite ease-in-out;
+    animation: change 10s infinite ease-in-out;
 }
 .content{
     position: absolute;
@@ -34,7 +34,31 @@
 
 @keyframes change{
     0%{
+        background-image: url('../Pictures/Background/BackgroundChanging3.jpg');
+    }
+    20%{
         background-image: url('../Pictures/Background/BackgroundChanging2.jpg');
     }
+    40%{
+        background-image: url('../Pictures/Background/BackgroundChanging1.jpg');
+    }
+    60%{
+        background-image: url('../Pictures/Background/BackgroundChanging2.jpg');
+    }
+    80%{
+        background-image: url('../Pictures/Background/BackgroundChanging1.jpg');
+    }
+    100%{
+        background-image: url('../Pictures/Background/BackgroundChanging3.jpg');
+    }
+    /* 60%{
+        background-image: url('../Pictures/Background/BackgroundChanging2.jpg');
+    }
+    80%{
+        background-image: url('../Pictures/Background/BackgroundChanging2.jpg');
+    }
+    100%{
+        background-image: url('../Pictures/Background/BackgroundChanging2.jpg');
+    } */
 
 }
