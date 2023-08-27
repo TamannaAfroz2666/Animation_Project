@@ -14,7 +14,7 @@
     background-size: cover;
     text-align: center;
     justify-content: center;
-    animation: change 10s infinite ease-in-out;
+    animation: change 3s infinite ease-in-out;
 }
 .content{
     position: absolute;
@@ -22,6 +22,9 @@
     left: 50%;
     transform: translate(-50% , -50%);
     /* text-transform: uppercase; */
+}
+.content h1{
+    letter-spacing: 10px;
 }
 
 @keyframes change{
