@@ -280,6 +280,9 @@ nav .wrapper .logo{
     text-transform: uppercase;
 
 }
+h4:hover{
+    color: #fc5050;
+}
 .electrical p{
     font-size: 20px;
     padding: 30px 0;
@@ -287,5 +290,20 @@ nav .wrapper .logo{
 }
 .electrical a {
     text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+   
+   
     
+}
+a:hover {
+    font-weight: 300;
+    color: rgb(241, 241, 8);
+    /* border: 5px solid whitesmoke; */
+    box-shadow: 0 8px 8px -4px lightblue;
+    /* box-shadow: 10px 20px #3f3737; */
+    padding: 10px 10px;
+
+
 }
