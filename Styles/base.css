@@ -254,5 +254,8 @@ nav .wrapper .logo{
     left: 70px;
 }
 .Business h1{
-    font-size: 25px;
+    font-size: 20px;
+    padding: 40px 0;
+    color: #000000;
+    text-transform: uppercase;
 }
