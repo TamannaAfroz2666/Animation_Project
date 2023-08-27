@@ -245,3 +245,14 @@ nav .wrapper .logo{
 }
 
 /* Animation end  */
+
+/* Business card design  */
+.Business{
+    width: 1250px;
+    top: 80px;
+    position: relative;
+    left: 70px;
+}
+.Business h1{
+    font-size: 25px;
+}
