@@ -23,6 +23,14 @@
     color: #fff;
     text-align: center;
 }
-.hero h1{
-    color: red;
+.title h1{
+    padding: 50px 0;
+    color: rgb(250, 242, 242);
+    font-weight: 700;
+    
+}
+.title p{
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
 }
