@@ -340,10 +340,16 @@ a:hover {
     width: 1200px;
     position: relative;
     display: inline-flex;
+    padding: 10px 20px;
 }
 .content_about img {
     width: 500px;
     top: 50px;
     left: 50px;
     position: relative;
+    padding-right: 80px;
+}
+.content_about_items{
+    width: 500px;
+    padding: 50px 80px;
 }
