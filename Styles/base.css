@@ -412,3 +412,7 @@ a:hover {
     padding: 30px 40px;
     color:#ffffff
 }
+
+.employee_content{
+    display: flex;
+}
