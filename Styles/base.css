@@ -359,4 +359,12 @@ a:hover {
     font-size: 20px;
     text-transform: uppercase;
     color: #00773d;
+    font-weight: 700;
+}
+.content_about_items p{
+    /* width: 410px; */
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px 0;
+    text-align: justify;
 }
