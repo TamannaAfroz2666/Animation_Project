@@ -334,4 +334,16 @@ a:hover {
     top: 80px;
     position: relative;
     left: 70px;
+    background-color: #e1e1e1;;
+}
+.content_about{
+    width: 1200px;
+    position: relative;
+    display: inline-flex;
+}
+.content_about img {
+    width: 500px;
+    top: 50px;
+    left: 50px;
+    position: relative;
 }
