@@ -258,6 +258,7 @@ nav .wrapper .logo{
     padding: 30px 0;
     color: #000000;
     text-transform: uppercase;
+    font-weight: 600;
 }
 .business_card{
     width: 1200px;
@@ -314,4 +315,13 @@ a:hover {
     padding: 10px 10px;
 
 
+}
+
+/* product sector designed start */
+.Business .Product_heading{
+    font-size: 20px;
+    padding: 30px 30px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
 }
