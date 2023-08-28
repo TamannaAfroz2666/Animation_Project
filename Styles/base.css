@@ -413,6 +413,13 @@ a:hover {
     color:#ffffff
 }
 
-.employee_content{
+.employee .employee_content{
+    width: 1250px;
+    /* top: 5px; */
+    left: 40px;
+    position: relative;
     display: flex;
+
+    align-items: center;
+    justify-content: space-between;
 }
