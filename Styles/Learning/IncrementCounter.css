@@ -62,3 +62,15 @@
     box-shadow: 0 0 40px -4px rgb(253, 141, 141);
 
 }
+ h2, span {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.counter_box .fa-solid{
+    font-size: 30px;
+    color: #009688;
+    display: block;
+}
