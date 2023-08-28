@@ -325,3 +325,13 @@ a:hover {
     text-transform: uppercase;
     font-weight: 600;
 }
+/* product sector designed start */
+
+/* about sector style start  */
+
+.about{
+    width: 1250px;
+    top: 80px;
+    position: relative;
+    left: 70px;
+}
