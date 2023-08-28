@@ -334,7 +334,7 @@ a:hover {
     top: 80px;
     position: relative;
     left: 70px;
-    background-color: #e1e1e1;;
+    background-color: #e1e1e1;
 }
 .content_about{
     width: 1200px;
@@ -415,24 +415,35 @@ a:hover {
 
 .employee .employee_content{
     width: 1250px;
-    /* top: 5px; */
-    /* left: 40px; */
     padding: 0 40px;
     margin: auto;
-    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .employee_details{
     width: 400px;
-    color: #ffffff;
+    color: #f8efef;
     font-family: 'Times New Roman', Times, serif;
    
 }
+.increment_section{
+    padding: 40px 50px;
+}
+.increment_section h4{
+    font-size: 20px;
+    padding: 10px 30px;
+}
 .employee_details li, h2{
     display: inline-block;
+    padding: 0 10px;
+    /* left: 30px; */
+    position: relative;
 }
 .employee_details .fa-solid{
-    font-size: 30px;
+    font-size: 35px;
+}
+.employee_details h2{
+    font-size: 35px;
+
 }
