@@ -416,10 +416,23 @@ a:hover {
 .employee .employee_content{
     width: 1250px;
     /* top: 5px; */
-    left: 40px;
-    position: relative;
+    /* left: 40px; */
+    padding: 0 40px;
+    margin: auto;
+    /* position: relative; */
     display: flex;
-
     align-items: center;
     justify-content: space-between;
+}
+.employee_details{
+    width: 400px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.employee_details li, h2{
+    display: inline-block;
+}
+.employee_details .fa-solid{
+    font-size: 30px;
 }
