@@ -258,6 +258,7 @@ nav .wrapper .logo{
     padding: 30px 0;
     color: #000000;
     text-transform: uppercase;
+    font-weight: 600;
 }
 .business_card{
     width: 1200px;
@@ -314,4 +315,74 @@ a:hover {
     padding: 10px 10px;
 
 
+}
+
+/* product sector designed start */
+.Business .Product_heading{
+    font-size: 20px;
+    padding: 30px 30px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* product sector designed start */
+
+/* about sector style start  */
+
+.about{
+    width: 1250px;
+    top: 80px;
+    position: relative;
+    left: 70px;
+    background-color: #e1e1e1;;
+}
+.content_about{
+    width: 1200px;
+    position: relative;
+    display: inline-flex;
+    padding: 10px 20px;
+}
+.content_about img {
+    width: 500px;
+    top: 50px;
+    left: 50px;
+    position: relative;
+    padding-right: 80px;
+}
+.content_about_items{
+    width: 500px;
+    padding: 50px 80px;
+}
+.content_about_items h1 {
+    text-align: center;
+    /* padding: 30px 0; */
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #00773d;
+    font-weight: 700;
+}
+.content_about_items p{
+    /* width: 410px; */
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px 0;
+    text-align: justify;
+}
+.more_link{
+    text-align: center;    
+}
+
+.content_about_items a{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 11px 40px;
+    text-decoration: none;
+    background-color: #00773d;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.more_link:hover a{
+    color: #fcb900;
 }
