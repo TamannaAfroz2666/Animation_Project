@@ -382,3 +382,7 @@ a:hover {
     text-align: center;
     border-radius: 5px;
 }
+
+.more_link:hover a{
+    color: #fcb900;
+}
