@@ -424,7 +424,7 @@
                 
                 <div class="increment_section">
                     <i class="fa-solid fa-user-group"></i>
-                    <h2>5000</h2>
+                    <h2 class="counter">5000</h2>
                     <h5>Employees</h5>
                 </div>
                 <p>With headquarters in Dhaka, we directly employ approximately 1,000 people across Bangladesh.</p>
@@ -432,7 +432,7 @@
             <div class="employee_details">
                 <div class="increment_section">
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <h2>15</h2>
+                    <h2 class="counter">15</h2>
                     <h5>Brands</h5>
                 </div>
                 <p>With headquarters in Dhaka, we directly employ approximately 1,000 people across Bangladesh.</p>
@@ -440,7 +440,7 @@
             <div class="employee_details">
                 <div class="increment_section">
                     <i class="fa-solid fa-users"></i>
-                    <h2>1300</h2>
+                    <h2 class="counter">1300</h2>
                     <h5>Customers</h5>
                 </div>
                 <p>With headquarters in Dhaka, we directly employ approximately 1,000 people across Bangladesh.</p>
@@ -452,8 +452,20 @@
     </section>
 
 <!-- js code here  -->
+
 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="../jquery.counterup.min.js"></script>
+
+<script>
+    jQuery(document).ready(function($){
+        $('.counter').counterUp({
+            delay:20,
+            time:500
+
+        });
+
+    });
+</script>
 </body>
 
 </html>
