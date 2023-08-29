@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Base</title>
     <link rel="stylesheet" href="../Styles/base.css">
+    <!-- for font icon  -->
     <script src="https://kit.fontawesome.com/63df41bca6.js" crossorigin="anonymous"></script>
+    <!-- for font icon end  -->
+    <!-- for jquery increment js  -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- for jquery increment js end  -->
+    
+
 </head>
 
 <body>
@@ -417,7 +424,7 @@
                 
                 <div class="increment_section">
                     <i class="fa-solid fa-user-group"></i>
-                    <h2>5000</h2>
+                    <h2 class="counter">5000</h2>
                     <h5>Employees</h5>
                 </div>
                 <p>With headquarters in Dhaka, we directly employ approximately 1,000 people across Bangladesh.</p>
@@ -425,7 +432,7 @@
             <div class="employee_details">
                 <div class="increment_section">
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <h2>15</h2>
+                    <h2 class="counter">15</h2>
                     <h5>Brands</h5>
                 </div>
                 <p>With headquarters in Dhaka, we directly employ approximately 1,000 people across Bangladesh.</p>
@@ -433,7 +440,7 @@
             <div class="employee_details">
                 <div class="increment_section">
                     <i class="fa-solid fa-users"></i>
-                    <h2>1300</h2>
+                    <h2 class="counter">1300</h2>
                     <h5>Customers</h5>
                 </div>
                 <p>With headquarters in Dhaka, we directly employ approximately 1,000 people across Bangladesh.</p>
@@ -443,8 +450,48 @@
         </div>
 
     </section>
+ <!-- employee section end -->
 
 
+  <!-- Our clients section start -->
+  <section class="clients">
+    <div class="clients_content">
+        <div class="clients_image_list">
+            <h1>Our  clients
+               <span><hr></span> 
+            </h1>
+            <!-- <p> </p> -->
+
+        </div>
+        <div class="clients_info_list">
+            <h1>What our clients say <span><hr></span> </h1>
+            
+
+        </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+<!-- js code here  -->
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="../jquery.counterup.min.js"></script>
+
+<script>
+    jQuery(document).ready(function($){
+        $('.counter').counterUp({
+            delay:20,
+            time:500
+
+        });
+
+    });
+</script>
 </body>
 
 </html>
