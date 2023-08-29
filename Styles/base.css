@@ -447,3 +447,12 @@ a:hover {
     font-size: 35px;
 
 }
+.employee_details h5{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.employee_details p{
+    font-size: 18px;
+    padding:  0 100px 60px 0;
+    text-align: justify;
+}
