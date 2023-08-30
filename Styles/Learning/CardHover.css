@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    top: 50px;
+    position: relative;
+    /* padding: 50p 0px; */
+}
+
+.card h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+.card p{
+    width: 300px;
+    text-align: justify;
+   
+}
