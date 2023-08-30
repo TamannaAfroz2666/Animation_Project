@@ -14,13 +14,17 @@
     position: relative;
     /* padding: 50p 0px; */
 }
+.card img{
+    width: 200px;
+    height: 300px;
+}
 
 .card h1 {
     text-align: center;
     padding: 10px 0;
 }
 .card p{
-    width: 300px;
+    width: 200px;
     text-align: justify;
    
 }
