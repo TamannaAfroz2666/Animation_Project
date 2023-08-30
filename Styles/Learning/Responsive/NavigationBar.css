@@ -29,5 +29,7 @@ nav ul li a {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 0 10px;
+    padding: 7 10px;
+    color: white;
+    border-radius: 5px;
 }
