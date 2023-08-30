@@ -348,7 +348,8 @@ a:hover {
     width: 500px;
     top: 50px;
     left: 50px;
-    position: relative;
+    position: relative; 
+     
     padding-right: 80px;
     display: block;
     /* cursor: zoom-out; */
