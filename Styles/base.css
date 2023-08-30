@@ -492,9 +492,10 @@ a:hover {
     color: #1f1e1e;  
 }
 
+
 .clients_info_list h1{
     width: 500px;
-    padding: 65px 70px;
+    padding: 45px 70px;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -503,6 +504,28 @@ a:hover {
 .clients_content span hr{
     width: 500px;
     top: 50px;
-    position: relative;
-    
+    position: relative;   
+}
+.image_companys{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_section_client{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_field img{
+    width: 100px;
+    height: 60px;
+
+}
+.image_companys p{
+    width: 400px;
+    padding: 20px 90px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
 }
