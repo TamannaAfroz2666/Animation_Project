@@ -19,3 +19,15 @@ nav {
     padding: 0 50px;
 
 }
+nav ul{
+    float: right;
+    padding: 0 50px;
+    display: inline-flex;
+    line-height: 80px;
+}
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 10px;
+}
