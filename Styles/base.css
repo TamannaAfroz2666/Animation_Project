@@ -548,13 +548,11 @@ a:hover {
     margin: auto;
     text-align: center;
     font-size: 20px;
-    animation: info_change .5s ease-in-out;
+    /* animation: info_change .5s ease-in; */
     
 }
 
-/* .image_field:hover img{
-    transform: scale(1.1);
-} */
+
 .intro{
     height: 15px;
     width: 25px;
@@ -563,7 +561,7 @@ a:hover {
     position: absolute;
     bottom: 5px;
     background: rgb(245, 210, 210);
-    /* transition: .5s; */
+  
    
 }
 .image_field p{
@@ -585,6 +583,13 @@ a:hover {
     }
 }
 
-@keyframes info_change{
+/* @keyframes info_change{
+    0%{
+        text-rendering: auto;
+    }
+    20%{
+        
+        text-rendering: auto;
+    }
     
-}
+} */
