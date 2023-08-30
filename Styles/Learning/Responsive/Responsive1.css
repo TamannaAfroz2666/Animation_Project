@@ -1,21 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.container{
+
+.container {
     width: 1250px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.food{
-    border: 3px  solid paleturquoise;
+
+.food {
+    border: 3px solid rgb(65, 66, 66);
     border-radius: 10px;
     padding: 30px;
 }
+
 /* .food img {
     width: 80px;
 } */
+
+/* responsive start  */
+
+@media screen and (max-width: 576px) {
+    .container {
+        grid-template-columns: repeat(1);
+        background-color: aquamarine;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container {
+        grid-template-columns: repeat(2);
+        gap: 40px;
+        /* margin: auto; */
+
+        background-color: blueviolet;
+    }
+
+}
