@@ -39,5 +39,12 @@ nav ul li a {
     float: right;
     line-height: 80px;
     margin-right: 40px;
+    cursor: pointer;
+    display: none;
 
 }
+#check{
+    display: none;
+}
+
+
