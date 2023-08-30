@@ -33,3 +33,11 @@ nav ul li a {
     color: white;
     border-radius: 5px;
 }
+.checkbtn .fa-solid{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+
+}
