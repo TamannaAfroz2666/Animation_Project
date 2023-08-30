@@ -513,19 +513,35 @@ a:hover {
 
 .image_section_client{
     width: 400px;
+    /* display: grid; */
     display: flex;
     justify-content: space-between;
+    /* align-items: ; */
+    column-gap: 50px;
+
+}
+.company_images{
+    display: grid;
+    
 }
 
 .image_field img{
-    width: 100px;
-    height: 60px;
+    width: 90px;
+    height: 30px;
+    padding: 40px 0;
+    margin: auto;
+    background-color: #e1e1e1;
 
 }
 .image_companys p{
     width: 400px;
-    padding: 20px 90px;
+    padding: 50px 200px;
     margin: auto;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    /* left: 80px;/ */
+    /* position: relative; */
 }
+/* .image_companys p span {
+    text-align: center;
+} */
