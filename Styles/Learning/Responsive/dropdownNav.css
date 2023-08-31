@@ -13,3 +13,16 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffff;
+    box-shadow: 0 5px 10px rgb(27, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    align-items: center;
+    padding: 20px 7% ;
+}
