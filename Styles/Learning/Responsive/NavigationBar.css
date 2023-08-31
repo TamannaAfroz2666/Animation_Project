@@ -20,14 +20,11 @@ nav {
 
 }
  nav ul{
-    position: relative;
-     display: flex;
-     flex-direction: column !important; 
-    /* float: right; */
-    padding: 0 50px;
+    float: right;
+    padding: 0 70px 50px;
   
-    /* display: inline-flex; */
-    /* line-height: 80px; */
+    display: inline-flex;
+    line-height: 80px;
 }
 nav ul li a {
     font-size: 20px;
