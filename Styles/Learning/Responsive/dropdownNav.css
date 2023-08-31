@@ -5,3 +5,11 @@
     text-decoration: none;
     list-style: none;
 }
+
+body{
+    min-height: 100vh;
+    background-image: url(../../../Pictures/Background/BackgroundChanging2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
